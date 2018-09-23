@@ -43,6 +43,6 @@
     },
 	"scripts": {
   "start": "node app",
-  "postinstall": "gulp dev"
+  "postinstall": "gulp default"
 }
 }
