@@ -1,5 +1,3 @@
-var jsdom = require('jsdom');
-$ = require('jquery')(new jsdom.JSDOM().window);
 (function($) {
   "use strict"; // Start of use strict
 

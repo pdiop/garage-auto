@@ -120,3 +120,11 @@ gulp.task('dev', ['css', 'js', 'browserSync'], function() {
   gulp.watch('./js/*.js', ['js']);
   gulp.watch('./*.html', browserSync.reload);
 });
+
+gulp.task('serve', [], function() {
+    // .init starts the server
+    browserSync.init({
+        server: "./",
+        port: 3010
+    });
+});
