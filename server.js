@@ -8,5 +8,6 @@ app.use('/js', express.static(__dirname + '/js'));
 app.use('/vendor', express.static(__dirname + '/vendor'));
 // viewed at http://localhost:8080
 app.use('/index.html', express.static(__dirname + '/index.html'));
+var port = process.env.PORT || 8080;
 
-app.listen(8080);
+app.listen(port);
